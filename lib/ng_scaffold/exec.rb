@@ -13,31 +13,37 @@ TPL_DIR = File.expand_path('../../tpl', __FILE__)
 
 SERVICE_TMPL = OpenStruct.new(
   "service.js": File.read([TPL_DIR, 'service.js'].join('/')),
-
 )
 
 CONTROLLER_TMPL = OpenStruct.new(
-  "index_controller.js": File.read([TPL_DIR, 'index_controller.js'].join('/')),  
-  # "edit_controller.js": File.read([TPL_DIR, 'edit_controller.js'].join('/')),
+  "base_controller.js": File.read([TPL_DIR, 'base_controller.js'].join('/')),
+  "index_controller.js": File.read([TPL_DIR, 'index_controller.js'].join('/')),
+  "update_controller.js": File.read([TPL_DIR, 'update_controller.js'].join('/')),
+  "edit_controller.js": File.read([TPL_DIR, 'edit_controller.js'].join('/')),
 )
 
 VIEW_TMPL = OpenStruct.new(
-  "index.html": File.read([TPL_DIR, 'index.html.erb'].join('/')),
-  "form.html.erb": File.read([TPL_DIR, 'form.html.erb'].join('/')),
+  "index.html": File.read([TPL_DIR, 'index.html'].join('/')),
+  "form.html": File.read([TPL_DIR, 'form.html'].join('/')),
 )
 
 module NgScaffold
   module Exec
-    class NgScaffold
+    class ScaffoldBase
+
+    end
+    class NgScaffold < ScaffoldBase
       def initialize(args)
         setup_naming(args)
         @dest_dirs = {
           controllers: [Dir.pwd,'js', 'controllers', @opt.param_name].join("/"),
+          services: [Dir.pwd,'js', 'services'].join("/"),
           views: [Dir.pwd,'admin_tpl', @opt.param_name].join("/"),
         }
         pp(@dest_dirs)
         create_dest_folders
         generate_templates
+        show_js_routes_config
       end
 
       def setup_naming(args)
@@ -60,20 +66,32 @@ module NgScaffold
       end
 
       def generate_templates
-        # SERVICE_TMPL.to_h.each do |tmpl_name, erb_content|
-        #   output = ERB.new(erb_content).result(binding)
-        #   puts [@opt.file_name_prefix, tmpl_name].join("_")
-        # end
-        CONTROLLER_TMPL.to_h.each do |tmpl_name, erb_content|
+
+        export_template_file(SERVICE_TMPL) do |file_name|
+          [@dest_dirs[:services], [@opt.file_name_prefix, file_name].join("_")].join("/")
+        end
+
+        export_template_file(CONTROLLER_TMPL) do |file_name|
+          [@dest_dirs[:controllers], [@opt.file_name_prefix, file_name].join("_")].join("/")
+        end
+
+        export_template_file(VIEW_TMPL) do |file_name|
+          [@dest_dirs[:views], [@opt.file_name_prefix, file_name].join("_")].join("/")
+        end
+
+      end
+
+      def export_template_file(template_list, &block)
+        template_list.to_h.each do | file_name, erb_content |
           content = ERB.new(erb_content).result(binding)
-          output_file_name = [@opt.file_name_prefix, tmpl_name].join("_")
-          output_file_full_path = [@dest_dirs[:controllers], output_file_name].join("/")
-          File.open(output_file_full_path, 'w') { |file| file.write(content) }
+          file_path = block.call(file_name)
+          File.open(file_path, 'w') { |file| file.write(content) }
         end
       end
 
-      def get_export_file_name
 
+      def show_js_routes_config
+        puts ERB.new(File.read([TPL_DIR, 'router.erb'].join('/'))).result(binding)
       end
 
     end

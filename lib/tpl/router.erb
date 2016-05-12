@@ -1,0 +1,32 @@
+============= admin_app.js module ==============
+
+<%= @opt.module_name %>
+
+============= INDEX TEMPLATE ==============
+
+<script src="js/services/<%=@opt.service_name%>.js"></script>
+
+
+============== ROUTER ===================
+
+    .state('admin.<%=@opt.resources_name%>', {
+        url: '/<%=@opt.resources_name%>',
+        template: '<div ui-view class="fade-in"></div>',
+        resolve: load(['js/services/<%=@opt.service_name%>.js', 'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_base_controller.js'])
+    })
+    .state('admin.<%=@opt.resources_name%>.index', {
+        url: '/index',
+        templateUrl: 'admin_tpl/<%=@opt.resources_name%>/index.html',
+        resolve: load([
+        'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_index_controller.js',
+        'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_update_controller.js'
+        ])
+    })
+    .state('admin.<%=@opt.resources_name%>.edit', {
+        url: '/edit/:<%=@opt.resource_id%>',
+        templateUrl: 'admin_tpl/<%=@opt.resources_name%>/form.html',
+        controller: '<%=@opt.class_name%>EditCtrl',
+        resolve: load(['xeditable', 'angularFileUpload',
+        'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_edit_controller.js'
+        ])
+    })
