@@ -72,11 +72,11 @@ module NgScaffold
         end
 
         export_template_file(CONTROLLER_TMPL) do |file_name|
-          [@dest_dirs[:controllers], [@opt.file_name_prefix, file_name].join("_")].join("/")
+          [@dest_dirs[:controllers], file_name].join("/")
         end
 
         export_template_file(VIEW_TMPL) do |file_name|
-          [@dest_dirs[:views], [@opt.file_name_prefix, file_name].join("_")].join("/")
+          [@dest_dirs[:views], file_name].join("/")
         end
 
       end
