@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# The command line Haml parser.
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib'
+# require 'ap'
+require 'ng_scaffold'
+require 'ng_scaffold/exec'
+NgScaffold::Exec::NgScaffold.new(ARGV)
+ # ap "FUCKXX"
+# opts = NgScaffold::Exec::NgScaffold.new(ARGV)
+# opts.parse!

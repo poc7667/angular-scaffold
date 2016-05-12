@@ -1,0 +1,2003 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"deb",
+				"debugger	(script.js)"
+			],
+			[
+				"time",
+				"timeout	setTimeout function"
+			],
+			[
+				"$s",
+				"$scope"
+			],
+			[
+				"bank",
+				"bank_id"
+			],
+			[
+				"ban",
+				"bank_id"
+			],
+			[
+				"ba",
+				"bank_id"
+			],
+			[
+				"loan_pa",
+				"loan_plans"
+			],
+			[
+				"ap",
+				"api"
+			],
+			[
+				"sco",
+				"scope"
+			],
+			[
+				"tran",
+				"trans_str"
+			],
+			[
+				"$ro",
+				"$rootScope"
+			],
+			[
+				"eli",
+				"eligibility	(loan_plan.rb)"
+			],
+			[
+				"loa",
+				"loan_plans	(loan_plan.rb)"
+			],
+			[
+				"max",
+				"max_installments	(loan_plan.js)"
+			],
+			[
+				"earl",
+				"early_termination_penalty_legs"
+			],
+			[
+				"end",
+				"end_month	(form.html)"
+			],
+			[
+				"start",
+				"start_month	(form.html)"
+			],
+			[
+				"lo",
+				"lowerbound_rate"
+			],
+			[
+				"up",
+				"upperbound_rate"
+			],
+			[
+				"lon",
+				"loan_rate_legs	(form.html)"
+			],
+			[
+				"loan",
+				"loan_rate_legs"
+			],
+			[
+				"sele",
+				"select2"
+			],
+			[
+				"desc",
+				"description	(form.html)"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"tpo",
+				"tpopt"
+			],
+			[
+				"lona",
+				"loan_plans	(search.js)"
+			],
+			[
+				"min_",
+				"min_loan_amount	(search.js)"
+			],
+			[
+				"min",
+				"min_loan_amount	(search.js)"
+			],
+			[
+				"Loan",
+				"LoanPlan"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"from",
+				"from_now"
+			],
+			[
+				"cre",
+				"created_at"
+			],
+			[
+				"cle",
+				"cleaned_params"
+			],
+			[
+				"ca",
+				"careers"
+			],
+			[
+				"profil",
+				"propsFilter"
+			],
+			[
+				"car",
+				"careers"
+			],
+			[
+				"care",
+				"careers	(form.html)"
+			],
+			[
+				"loan_pl",
+				"loan_plans	(loan_plans_controller.rb)"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"bran",
+				"branch_name"
+			],
+			[
+				"s",
+				"system"
+			],
+			[
+				"resourc",
+				"resource	(index.html)"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"fie",
+				"field_name"
+			],
+			[
+				"ac",
+				"access"
+			],
+			[
+				"confi",
+				"confirmPassword"
+			],
+			[
+				"$sta",
+				"$stateParams"
+			],
+			[
+				"sign",
+				"signin	(admin.config.router.js)"
+			],
+			[
+				"$roo",
+				"$rootScoope"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"updaF",
+				"updateFbBtn"
+			],
+			[
+				"fb",
+				"fb_share_btn	(ionslider.js.erb)"
+			],
+			[
+				"comp",
+				"$compile	AngularJS"
+			],
+			[
+				"fbSH",
+				"fbShareLinkChanged"
+			],
+			[
+				"new",
+				"new_loc"
+			],
+			[
+				"ab",
+				"absNewUrl"
+			],
+			[
+				"change",
+				"changed"
+			],
+			[
+				"ng-bi",
+				"ng-bind-html	AngularJS"
+			],
+			[
+				"get_a",
+				"get_airports	(location_utils.rb)"
+			],
+			[
+				"to",
+				"to_city"
+			],
+			[
+				"air",
+				"airport	(location_utils.rb)"
+			],
+			[
+				"pre",
+				"prefix	(main.js.erb)"
+			],
+			[
+				"mon",
+				"month"
+			],
+			[
+				"return",
+				"return_time_range"
+			],
+			[
+				"with",
+				"within	(application.js.erb)"
+			],
+			[
+				"rang",
+				"rangeInput"
+			],
+			[
+				"dep",
+				"depart_time_range"
+			],
+			[
+				"num",
+				"num_of_matched_keys"
+			],
+			[
+				"expe",
+				"expectedKeysExists"
+			],
+			[
+				"retur",
+				"return_date_range	(form_ctrl.js.erb)"
+			],
+			[
+				"chart",
+				"chart_type"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"upFR",
+				"updateDropdownFromURLParams"
+			],
+			[
+				"cha",
+				"chartName"
+			],
+			[
+				"control",
+				"controller	(main.js.erb)"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"Tai",
+				"Taipei	(en.yml)"
+			],
+			[
+				"loc",
+				"locationProvider"
+			],
+			[
+				"moh",
+				"monthly	(en.yml)"
+			],
+			[
+				"en",
+				"en_US"
+			],
+			[
+				"for",
+				"formats	(en.yml)"
+			],
+			[
+				"recen",
+				"recent_searches"
+			],
+			[
+				"Cont",
+				"contact_us"
+			],
+			[
+				"Tr",
+				"TravelPort"
+			],
+			[
+				"hid",
+				"hideCommentsThreshouldNumber"
+			],
+			[
+				"siz",
+				"sizeOfComments"
+			],
+			[
+				"coms",
+				"commentsSectionSelector"
+			],
+			[
+				"try",
+				"try	Try/Except/Else/Finally"
+			],
+			[
+				"require",
+				"requirejs"
+			],
+			[
+				"depa",
+				"departing_flight"
+			],
+			[
+				"retu",
+				"returning_flight	(zh-TW.yml)"
+			],
+			[
+				"requ",
+				"require_manifest_file"
+			],
+			[
+				"sta",
+				"start_date"
+			],
+			[
+				"tr",
+				"try	Try/Except"
+			],
+			[
+				"arr",
+				"arrow_icon"
+			],
+			[
+				"ja",
+				"javascript_include_tag"
+			],
+			[
+				"jQ",
+				"jquery	(Gemfile)"
+			],
+			[
+				"char",
+				"chart_name"
+			],
+			[
+				"chart_an",
+				"chart_names"
+			],
+			[
+				"ch",
+				"chart"
+			],
+			[
+				"low",
+				"lowestFlights	(chart.js.erb)"
+			],
+			[
+				"filt",
+				"filter"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"per",
+				"person_information"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"o1o1",
+				"o1o1rurupoc	(.env)"
+			],
+			[
+				"db",
+				"db_autobackup"
+			],
+			[
+				"depl",
+				"deploy_to"
+			],
+			[
+				"rbe",
+				"rbenv_path"
+			],
+			[
+				"cu",
+				"current_path"
+			],
+			[
+				"cro",
+				"cronjob"
+			],
+			[
+				"exec",
+				"execute"
+			],
+			[
+				"ta",
+				"tas	task :task_name => [:dependent, :tasks] do .. end"
+			],
+			[
+				"nam",
+				"nam	namespace :.. do .. end"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"RNE",
+				"RBENV_PATH"
+			],
+			[
+				"upfli",
+				"updateFlighSeries"
+			],
+			[
+				"retr",
+				"returnChartConfig"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"da",
+				"dataArray"
+			],
+			[
+				"rou",
+				"route"
+			],
+			[
+				"drop",
+				"dropdown"
+			],
+			[
+				"date",
+				"date_range"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/ng_scaffold/exec.rb",
+			"settings":
+			{
+				"buffer_size": 864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/poc/.pryrc",
+			"settings":
+			{
+				"buffer_size": 2008,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/tpl/edit_controller.js.erb",
+			"settings":
+			{
+				"buffer_size": 865,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"last_filter": "ruby",
+		"selected_items":
+		[
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"jav",
+				"Javascript Beautify"
+			],
+			[
+				"java",
+				"Javascript Beautify"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"hjt",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"javasc",
+				"Javascript Beautify"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jab",
+				"Javascript Beautify"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"mak",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"txt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"erb",
+				"Set Syntax: ERB"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"scrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"settus",
+				"Preferences: Settings - User"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"markl",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"maks",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"makus",
+				"Preferences: MarkdownEditing Settings – User"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"nre",
+				"MarkdownEditing: New Reference"
+			],
+			[
+				"font",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"pre",
+				"Preferences: Settings - Default"
+			],
+			[
+				"mars",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"tex",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"renma",
+				"File: Rename"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ha",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ham",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"appls",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"makr",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"use",
+				"Preferences: Settings - User"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"angu",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"packuser",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"rsp",
+				"Set Syntax: RSpec"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"te",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"t",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"bau",
+				"HTMLBeautify"
+			],
+			[
+				"upc",
+				"Convert Case: Upper Case"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"Javascript Beautify"
+			],
+			[
+				"m",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"us",
+				"Preferences: Settings - User"
+			],
+			[
+				"ngin",
+				"Set Syntax: nginx"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"high",
+				"HighlightWords: Highlight Words"
+			],
+			[
+				"upca",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ba",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"spe",
+				"Google Spell Check"
+			],
+			[
+				"back",
+				"Snippet: Backbone Model"
+			],
+			[
+				"basg",
+				"Bookmarks: Toggle"
+			],
+			[
+				"",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pref",
+				"Preferences: Settings - Default"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"\\p",
+			"\\p(\\n)",
+			"\\p\\n",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/poc/workspace/ng_scaffold",
+		"/Users/poc/workspace/ng_scaffold/bin",
+		"/Users/poc/workspace/ng_scaffold/lib",
+		"/Users/poc/workspace/ng_scaffold/lib/ng_scaffold",
+		"/Users/poc/workspace/ng_scaffold/lib/tpl"
+	],
+	"file_history":
+	[
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/controllers/index.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/tpl/app.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/admin.config.router.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/tpl/footer.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/config/nginx.conf",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/loan_plan/loan_rate_legs.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/controllers/loan_plan/edit.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/app.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/views/api/v1/loan_plans/show.json.jbuilder",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/models/loan_plan.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/loan_plan/early_termination_penalty_legs.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/controllers/api/v1/loan_plans_controller.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/services/loan_plan.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/controllers/loan_plan.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/loan_plan/index.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/config/application.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/admin.config.router.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/config/locales/zh_TW.yml",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/admin.app.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/loan_plan/eligiblity.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/form_editor.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/db/migrate/20160427064303_add_early_termination_penalty_and_candidates_to_loan_plans.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/Gemfile",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/admin.app.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/app.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/controllers/loan_plan.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/alphaloan.sublime-project",
+		"/Users/poc/workspace/alpha_flea/Gemfile",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/config.lazyload.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/tpl/index_content.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/airslice/cart.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/controllers/careers.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/airslice/testimonial-slider.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/index.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/script.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/libs/angular/oclazyload/dist/ocLazyLoad.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/tpl/search.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/views/api/v1/loan_plans/edit.html.erb",
+		"/Users/poc/workspace/github_blog/source/_posts/angular-resource-RESTful.md",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/table_editable.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/config.router.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/README.md",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/controllers/api/v1/searches_controller.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/services/search.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/lib/tasks/db.rake",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/views/api/v1/searches/index.json.jbuilder",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/controllers/search.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/auto_commit.py",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/config/routes.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/airslice/j",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/airslice/index.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/app.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/controllers/form.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/controllers/select.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/airslice/loan",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/bower_components/angular-messages/index.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/controllers/api/v1/careers_controller.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/directives/ui-jq.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/form_select.html",
+		"/Users/poc/.irbrc",
+		"/Users/poc/.pryrc",
+		"/Users/poc/workspace/github_blog/source/_posts/pry-console-cheetsheet.md",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/config/deploy.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/form_validation.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/form_elements.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/controllers/banks.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/controllers/api/v1/banks_controller.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/models/bank.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/careers/index.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/bank/index.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/libs/angular/angular-xeditable/dist/css/xeditable.css",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/views/api/v1/careers/index.json.jbuilder",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/services/careers.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/css/app.css",
+		"/Users/poc/workspace/vvtk rails projects/dqa_dev_server/Gemfile",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/bower_components/angular-xeditable/dist/css/xeditable.css",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/app/models/career.rb",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/bower_components/bootstrap-tagsinput/examples/assets/app.css",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/blocks/header.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/config.lazyload.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/bower_components/oclazyload/dist/ocLazyLoad.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/tpl/portal.html",
+		"/Users/poc/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/bower_components/animate.css/source/rotating_exits/rotateOutUpLeft.css",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/admin_main.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/bank/list.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/main.js",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/blocks/material.header.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/airslice/header-default.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/app_dashboard_v2.html",
+		"/Users/poc/workspace/AlphaProject/alphaLoan/.loan.sublime-project",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/assets/javascripts/angular/user_quick_search/quick_search_ctrl.js.erb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/views/_fb_like.html.haml",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/lazyair.sublime-project",
+		"/Users/poc/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/poc/tmp/ui-select/src/uiSelectChoicesDirective.js",
+		"/Users/poc/workspace/ezfly_free_to_japan/docs/work_schedules.",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/assets/templates/quick_search/form.html.haml",
+		"/Users/poc/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/assets/javascripts/angular/user_quick_search/ionslider.js.erb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/views/user/quick_search/index.html.haml",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/models/flight.rb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/models/user.rb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/views/welcome/specials.html.haml",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/assets/javascripts/angular/user_quick_search/form_ctrl.js.erb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/assets/javascripts/angular/user_quick_search/main.js.erb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/assets/javascripts/application.js.erb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/views/welcome/promotion_destinations.html.haml",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/assets/javascripts/angular/controllers/promotion.js.erb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/.sublime-project",
+		"/Users/poc/workspace/AngularSandbox/slider/chart.js.erb",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/jp.yaml",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/views/welcome/promotion_tickets.html.haml",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/app/views/welcome/promotion_by_airport.html.haml",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/config/application.rb",
+		"/Users/poc/workspace/dadasayserver/.git/MERGE_MSG",
+		"/Users/poc/workspace/ezfly_free_to_japan/docs/business_days_count.rb",
+		"/Users/poc/workspace/ezfly_free_to_japan/docs/ideas.md",
+		"/Users/poc/workspace/ezfly_free_to_japan/docs/work_schedules.md",
+		"/Users/poc/workspace/ezfly_free_to_japan/docs/work_schedules.txt",
+		"/Users/poc/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/poc/workspace/dadasayserver/public/plugin/v1/style.min.css",
+		"/Users/poc/workspace/dadasayserver/app/assets/mint/scss/bootstrap.scss",
+		"/Users/poc/workspace/dadasayserver/bootstrap.css",
+		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/spec/controllers/user/travel_organizer_controller_spec.rb",
+		"/Users/poc/workspace/dadasayserver/public/comments.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"src='js",
+			"data-",
+			"script",
+			"$this",
+			"loadScriptJS",
+			"try",
+			"navbar",
+			"top",
+			"navTop",
+			"script.js",
+			"script",
+			"top",
+			"sm-3",
+			"empty_early_termination_penalty_leg",
+			"addPenaltyLeg",
+			"init_product_attrs",
+			"$scope",
+			"bank_id",
+			"　",
+			"#  ",
+			"lowest_annual_fee_rate",
+			"eligibility",
+			"loan",
+			"addEligibility",
+			"eligiblity",
+			"early_termination_penalty_legs",
+			"PenaltyLeg",
+			"removePenaltyLeg",
+			"penalty",
+			"early_termination_penalty_legs",
+			"enaltyLeg",
+			"addenaltyLeg",
+			"addPenaltyLeg",
+			"early_termination_penalty_legs",
+			"loan_rate",
+			"LoanRateLeg",
+			"lowerbound_rate",
+			"loan_rate_legs",
+			", ",
+			"inclu",
+			"number",
+			"sm-2",
+			"col-sm-1 control-label",
+			"text",
+			"start_month",
+			"duration",
+			"yourdomain",
+			"JQ_CONFIG",
+			"MODULE_CONFIG",
+			"sortableList",
+			"data-",
+			"div",
+			"sorta",
+			"li",
+			"draggable=\"true\"",
+			"sort",
+			"data-",
+			"bow",
+			"params",
+			"\"]",
+			"upperbound_rate",
+			"duration",
+			"number",
+			"sm-2",
+			"text",
+			"addLoanRateLeg",
+			"product",
+			"specs",
+			"Spec",
+			"spec",
+			"specs",
+			"                        ",
+			"value",
+			"libs/angular/angular-ui-select",
+			"ui-select",
+			"$item",
+			".css'",
+			"careersOptions",
+			"loan_plan.careers",
+			"style=\"width:",
+			"index",
+			"revslider_showDoubleJqueryError",
+			"parallax",
+			"parallax ",
+			"header-container",
+			"script.js",
+			"rev_slider_wrapper",
+			"setREVStartSize",
+			".css'",
+			"rev_slider_2_1",
+			"們的合作夥",
+			"visible-lg-inline mega-col-4",
+			"src=\"images/",
+			"nginx_sites_enabled_path",
+			"n 15",
+			"20",
+			"-n 3",
+			"style",
+			"loan_plan_id",
+			"10",
+			"        ",
+			"LoanPlanSearch",
+			"LoanPlan",
+			"LoanPlanModule",
+			"search",
+			"con",
+			"rootS",
+			"propsFilter",
+			"load_plan",
+			"name",
+			"id",
+			"option.age",
+			"person",
+			"multipleDemo.selectedPeopleWithGroupBy",
+			"group",
+			"ui.select",
+			"select",
+			"ui-select",
+			"person.",
+			"email",
+			"opt",
+			"update",
+			"repeatSelect",
+			"CareerService",
+			"multi",
+			"controllers/form.js",
+			"valid",
+			"editFields"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			": \\n",
+			"\\1: \\1",
+			"\\1:\\1",
+			" && ",
+			" ",
+			"\\2:",
+			"\\2",
+			"\\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/ng_scaffold/exec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 44,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/poc/.pryrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1976,
+								1976
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 54,
+								"count": 122,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 820.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/tpl/edit_controller.js.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 16,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mde":
+	{
+		"height": 136.0
+	},
+	"pinned_build_system": "",
+	"project": "ng_scaffold.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"confla",
+				"portal/js/config.lazyload.js"
+			],
+			[
+				"portadminrou",
+				"portal/js/admin.config.router.js"
+			],
+			[
+				"airsli/in",
+				"alphaLoan/public/airslice/index.html"
+			],
+			[
+				"airsli/ind",
+				"alphaLoan/public/airslice/index.html"
+			],
+			[
+				"inde",
+				"portal/index.html"
+			],
+			[
+				"js/script.js",
+				"portal/js/script.js"
+			],
+			[
+				"apphtml",
+				"alphaLoan/public/portal/tpl/app.html"
+			],
+			[
+				"indexcon",
+				"portal/tpl/index_content.html"
+			],
+			[
+				"indexjs",
+				"portal/js/controllers/index.js"
+			],
+			[
+				"apph",
+				"alphaLoan/public/portal/tpl/app.html"
+			],
+			[
+				"header",
+				"portal/tpl/header.html"
+			],
+			[
+				"index_content.html",
+				"portal/tpl/index_content.html"
+			],
+			[
+				"scr",
+				"portal/js/script.js"
+			],
+			[
+				"adminrout",
+				"portal/js/admin.config.router.js"
+			],
+			[
+				"porrou",
+				"portal/js/config.router.js"
+			],
+			[
+				"controllers/index.js",
+				"portal/js/controllers/index.js"
+			],
+			[
+				"portroute",
+				"portal/js/admin.config.router.js"
+			],
+			[
+				"portindh",
+				"portal/index.html"
+			],
+			[
+				"tpl/footer.html",
+				"portal/tpl/footer.html"
+			],
+			[
+				"app.ht",
+				"portal/tpl/app.html"
+			],
+			[
+				"airsliin",
+				"alphaLoan/public/airslice/index.html"
+			],
+			[
+				"",
+				"portal/tpl/index_content.html"
+			],
+			[
+				".en",
+				"alphaLoan/.env"
+			],
+			[
+				"depl",
+				"alphaLoan/config/deploy.rb"
+			],
+			[
+				"indcon",
+				"portal/tpl/index_content.html"
+			],
+			[
+				"ngin",
+				"alphaLoan/config/nginx.conf"
+			],
+			[
+				"tpl/header.html",
+				"portal/tpl/header.html"
+			],
+			[
+				"airsliind",
+				"alphaLoan/public/airslice/index.html"
+			],
+			[
+				"appindcon",
+				"alphaLoan/public/portal/tpl/index_content.html"
+			],
+			[
+				"portal/rou",
+				"portal/js/admin.config.router.js"
+			],
+			[
+				"portind",
+				"public/portal/index.html"
+			],
+			[
+				"n",
+				"config/nginx.conf"
+			],
+			[
+				"sho",
+				"app/views/api/v1/loan_plans/show.json.jbuilder"
+			],
+			[
+				"mode/loan",
+				"app/models/loan_plan.rb"
+			],
+			[
+				"loanplajbuil",
+				"app/views/api/v1/loan_plans/show.json.jbuilder"
+			],
+			[
+				"show.j",
+				"app/views/api/v1/loan_plans/show.json.jbuilder"
+			],
+			[
+				"api/v1/",
+				"app/controllers/api/v1/loan_plans_controller.rb"
+			],
+			[
+				"loan_rate_legs",
+				"public/ngAdmin/admin_tpl/loan_plan/loan_rate_legs.html"
+			],
+			[
+				"early_termination_penalty_legs.html",
+				"public/ngAdmin/admin_tpl/loan_plan/early_termination_penalty_legs.html"
+			],
+			[
+				"forhtml",
+				"public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"edijs",
+				"public/ngAdmin/js/controllers/loan_plan/edit.js"
+			],
+			[
+				"loanplajs",
+				"public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"service/",
+				"public/ngAdmin/js/services/loan_plan.js"
+			],
+			[
+				"loanplshow",
+				"app/views/api/v1/loan_plans/show.json.jbuilder"
+			],
+			[
+				"loanpcon",
+				"app/controllers/api/v1/loan_plans_controller.rb"
+			],
+			[
+				"loanjs",
+				"public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"servi/lo",
+				"public/ngAdmin/js/services/loan_plan.js"
+			],
+			[
+				"adrou",
+				"public/ngAdmin/js/admin.config.router.js"
+			],
+			[
+				"lona/ind",
+				"public/ngAdmin/admin_tpl/loan_plan/index.html"
+			],
+			[
+				"js/controllers/loan_plan/edit.js",
+				"public/ngAdmin/js/controllers/loan_plan/edit.js"
+			],
+			[
+				"adminrou",
+				"public/ngAdmin/js/admin.config.router.js"
+			],
+			[
+				"admirou",
+				"public/ngAdmin/js/admin.config.router.js"
+			],
+			[
+				"edit.js",
+				"public/ngAdmin/js/controllers/loan_plan/edit.js"
+			],
+			[
+				"app",
+				"public/ngAdmin/admin_tpl/app.html"
+			],
+			[
+				"zh",
+				"config/locales/zh_TW.yml"
+			],
+			[
+				"conloajs",
+				"public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"admijs",
+				"public/ngAdmin/js/admin.app.js"
+			],
+			[
+				"controloanj",
+				"public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"admi",
+				"public/ngAdmin/admin.html"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"model/lo",
+				"app/models/loan_plan.rb"
+			],
+			[
+				"loan_rate_legs.html",
+				"public/ngAdmin/admin_tpl/loan_plan/loan_rate_legs.html"
+			],
+			[
+				"elight",
+				"public/ngAdmin/admin_tpl/loan_plan/eligiblity.html"
+			],
+			[
+				"loanplafor",
+				"public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"loaplahtml",
+				"public/ngAdmin/admin_tpl/loan_plan/index.html"
+			],
+			[
+				"ligibilityh",
+				"public/ngAdmin/admin_tpl/loan_plan/eligiblity.html"
+			],
+			[
+				"admrou",
+				"public/ngAdmin/js/admin.config.router.js"
+			],
+			[
+				"loanpjs",
+				"public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"model/",
+				"alphaLoan/app/models/loan_plan.rb"
+			],
+			[
+				"eligihtml",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/eligiblity.html"
+			],
+			[
+				"show",
+				"alphaLoan/app/views/api/v1/loan_plans/show.json.jbuilder"
+			],
+			[
+				"elig",
+				"alphaLoan/db/migrate/20160507022650_add_total_annual_fees_and_eligible_fields_to_loan_plans.rb"
+			],
+			[
+				"api/v1",
+				"alphaLoan/app/controllers/api/v1/loan_plans_controller.rb"
+			],
+			[
+				"showjs",
+				"alphaLoan/app/views/api/v1/loan_plans/show.json.jbuilder"
+			],
+			[
+				"modello",
+				"alphaLoan/app/models/loan_plan.rb"
+			],
+			[
+				"rake",
+				"alphaLoan/lib/tasks/db.rake"
+			],
+			[
+				"eny",
+				"alphaLoan/config/locales/en.yml"
+			],
+			[
+				"planloanhtml",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"loaform",
+				"alphaLoan/public/ngAdmin/admin_tpl/form_editor.html"
+			],
+			[
+				"apiloancontroll",
+				"alphaLoan/app/controllers/api/v1/loan_plans_controller.rb"
+			],
+			[
+				"leg.h",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/loan_rate_legs.html"
+			],
+			[
+				"conflaz",
+				"alphaLoan/public/ngAdmin/js/config.lazyload.js"
+			],
+			[
+				"lib/rak",
+				"alphaLoan/lib/tasks/db.rake"
+			],
+			[
+				"migrati",
+				"alphaLoan/db/migrate/20160427064303_add_early_termination_penalty_and_candidates_to_loan_plans.rb"
+			],
+			[
+				"migration",
+				"alphaLoan/db/migrate/20160506070630_add_early_termination_penalty_legs_to_loan_plan.rb"
+			],
+			[
+				"loplajs",
+				"alphaLoan/public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"early_termination_penalty_legs",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/early_termination_penalty_legs.html"
+			],
+			[
+				"planform",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"loaleg",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/loan_rate_legs.html"
+			],
+			[
+				"ngadindexh",
+				"alphaLoan/public/ngAdmin/admin_tpl/bank/index.html"
+			],
+			[
+				"modeloanp",
+				"alphaLoan/app/models/loan_plan.rb"
+			],
+			[
+				"apiloancont",
+				"alphaLoan/app/controllers/api/v1/loan_plans_controller.rb"
+			],
+			[
+				"admh",
+				"alphaLoan/public/ngAdmin/admin.html"
+			],
+			[
+				"loanform",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"admhtml",
+				"alphaLoan/public/ngAdmin/admin.html"
+			],
+			[
+				"adminapp",
+				"alphaLoan/public/ngAdmin/js/admin.app.js"
+			],
+			[
+				"admiapp",
+				"portal/js/admin.app.js"
+			],
+			[
+				"adloanplajs",
+				"alphaLoan/public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"conloanpljs",
+				"portal/js/controllers/loan_plan.js"
+			],
+			[
+				"appjs",
+				"alphaLoan/public/ngAdmin/js/app.js"
+			],
+			[
+				"gem",
+				"alphaLoan/Gemfile"
+			],
+			[
+				"loancont",
+				"alphaLoan/app/controllers/api/v1/loan_plans_controller.rb"
+			],
+			[
+				"admiloapjs",
+				"alphaLoan/public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"formhtml",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"loanplaform",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"loadplajs",
+				"alphaLoan/public/ngAdmin/js/controllers/loan_plan.js"
+			],
+			[
+				"conf",
+				"portal/js/config.lazyload.js"
+			],
+			[
+				"confi",
+				"portal/js/config.lazyload.js"
+			],
+			[
+				"controsea",
+				"portal/js/controllers/search.js"
+			],
+			[
+				"ap",
+				"portal/tpl/app.html"
+			],
+			[
+				"head",
+				"portal/tpl/header.html"
+			],
+			[
+				"seajs",
+				"portal/js/controllers/search.js"
+			],
+			[
+				"tpl/search.html",
+				"portal/tpl/search.html"
+			],
+			[
+				"hea",
+				"alphaLoan/public/ngAdmin/admin_tpl/blocks/header.html"
+			],
+			[
+				"script.js",
+				"portal/js/script.js"
+			],
+			[
+				"sliindexh",
+				"alphaLoan/public/airslice/index.html"
+			],
+			[
+				"configlaz",
+				"portal/js/config.lazyload.js"
+			],
+			[
+				"lazyl",
+				"alphaLoan/public/libs/angular/oclazyload/dist/ocLazyLoad.js"
+			],
+			[
+				"index",
+				"portal/index.html"
+			],
+			[
+				"seaht",
+				"portal/tpl/search.html"
+			],
+			[
+				"libtask/db",
+				"alphaLoan/lib/tasks/db.rake"
+			],
+			[
+				"modelo",
+				"alphaLoan/app/models/loan_plan.rb"
+			],
+			[
+				"modeloan",
+				"alphaLoan/app/models/loan_plan.rb"
+			],
+			[
+				"post/",
+				"_posts/angular-resource-RESTful.md"
+			],
+			[
+				"loancon",
+				"alphaLoan/app/controllers/api/v1/loan_plans_controller.rb"
+			],
+			[
+				"plaformhtml",
+				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html"
+			],
+			[
+				"planhtml",
+				"alphaLoan/app/views/api/v1/loan_plans/edit.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/workspace/lazyair_projects/lazy-bird-website/lazyair.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
