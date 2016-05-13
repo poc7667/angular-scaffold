@@ -4,7 +4,7 @@
 
 ============= INDEX TEMPLATE ==============
 
-<script src="js/services/<%=@opt.service_name%>.js"></script>
+<script src="js/services/<%=@opt.resource%>_service.js"></script>
 
 
 ============== ROUTER ===================
@@ -12,21 +12,27 @@
     .state('admin.<%=@opt.resources_name%>', {
         url: '/<%=@opt.resources_name%>',
         template: '<div ui-view class="fade-in"></div>',
-        resolve: load(['js/services/<%=@opt.service_name%>.js', 'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_base_controller.js'])
+        controller: '<%=@opt.class_name%>BaseCtrl',
+        resolve: load(['js/services/<%=@opt.resource%>_service.js', 
+        'js/controllers/<%=@opt.resource%>/base_controller.js'])
     })
     .state('admin.<%=@opt.resources_name%>.index', {
         url: '/index',
-        templateUrl: 'admin_tpl/<%=@opt.resources_name%>/index.html',
+        templateUrl: 'admin_tpl/<%=@opt.resource%>/index.html',
         resolve: load([
-        'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_index_controller.js',
-        'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_update_controller.js'
+        'xeditable',
+        'js/controllers/<%=@opt.resource%>/index_controller.js',
+        'js/controllers/<%=@opt.resource%>/update_controller.js',
+        'js/controllers/<%=@opt.resource%>/delete_controller.js',
+        'js/controllers/<%=@opt.resource%>/create_controller.js',
         ])
     })
     .state('admin.<%=@opt.resources_name%>.edit', {
         url: '/edit/:<%=@opt.resource_id%>',
         templateUrl: 'admin_tpl/<%=@opt.resources_name%>/form.html',
         controller: '<%=@opt.class_name%>EditCtrl',
-        resolve: load(['xeditable', 'angularFileUpload',
-        'js/controllers/<%=@opt.resource%>/<%=@opt.class_name%>_edit_controller.js'
+        resolve: load([
+        'angularFileUpload',
+        'js/controllers/<%=@opt.resource%>/edit_controller.js'
         ])
     })

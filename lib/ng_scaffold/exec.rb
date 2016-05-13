@@ -20,6 +20,8 @@ CONTROLLER_TMPL = OpenStruct.new(
   "index_controller.js": File.read([TPL_DIR, 'index_controller.js'].join('/')),
   "update_controller.js": File.read([TPL_DIR, 'update_controller.js'].join('/')),
   "edit_controller.js": File.read([TPL_DIR, 'edit_controller.js'].join('/')),
+  "create_controller.js": File.read([TPL_DIR, 'create_controller.js'].join('/')),
+  "delete_controller.js": File.read([TPL_DIR, 'delete_controller.js'].join('/')),
 )
 
 VIEW_TMPL = OpenStruct.new(
@@ -38,7 +40,7 @@ module NgScaffold
         @dest_dirs = {
           controllers: [Dir.pwd,'js', 'controllers', @opt.param_name].join("/"),
           services: [Dir.pwd,'js', 'services'].join("/"),
-          views: [Dir.pwd,'admin_tpl', @opt.param_name].join("/"),
+          views: [Dir.pwd, 'admin_tpl', @opt.param_name].join("/"),
         }
         pp(@dest_dirs)
         create_dest_folders
@@ -88,7 +90,6 @@ module NgScaffold
           File.open(file_path, 'w') { |file| file.write(content) }
         end
       end
-
 
       def show_js_routes_config
         puts ERB.new(File.read([TPL_DIR, 'router.erb'].join('/'))).result(binding)

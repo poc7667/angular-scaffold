@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"resou",
+				"resource_id	(exec.rb)"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"par",
+				"param_name"
+			],
+			[
+				"op",
+				"opt	option(..)"
+			],
+			[
+				"mode",
+				"module_name	(exec.rb)"
+			],
+			[
+				"sca",
+				"scaffold_name"
+			],
+			[
 				"deb",
 				"debugger	(script.js)"
 			],
@@ -490,60 +514,9 @@
 			[
 				"retr",
 				"returnChartConfig"
-			],
-			[
-				"fil",
-				"filter"
-			],
-			[
-				"re",
-				"response"
-			],
-			[
-				"da",
-				"dataArray"
-			],
-			[
-				"rou",
-				"route"
-			],
-			[
-				"drop",
-				"dropdown"
-			],
-			[
-				"date",
-				"date_range"
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "lib/ng_scaffold/exec.rb",
-			"settings":
-			{
-				"buffer_size": 864,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/poc/.pryrc",
-			"settings":
-			{
-				"buffer_size": 2008,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/tpl/edit_controller.js.erb",
-			"settings":
-			{
-				"buffer_size": 865,
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -551,10 +524,38 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 267.0,
-		"last_filter": "ruby",
+		"height": 392.0,
+		"last_filter": "ja",
 		"selected_items":
 		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Javascript Beautify"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"erb",
+				"Set Syntax: ERB"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"renma",
+				"File: Rename"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"ruby",
 				"Set Syntax: Ruby"
@@ -562,18 +563,6 @@
 			[
 				"h",
 				"HTMLBeautify"
-			],
-			[
-				"jav",
-				"Javascript Beautify"
-			],
-			[
-				"java",
-				"Javascript Beautify"
-			],
-			[
-				"ja",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"html",
@@ -610,10 +599,6 @@
 			[
 				"space",
 				"Indentation: Convert to Spaces"
-			],
-			[
-				"rena",
-				"File: Rename"
 			],
 			[
 				"ins",
@@ -660,10 +645,6 @@
 				"Set Syntax: Markdown Light"
 			],
 			[
-				"erb",
-				"Set Syntax: ERB"
-			],
-			[
 				"re",
 				"File: Rename"
 			],
@@ -674,10 +655,6 @@
 			[
 				"scrip",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"ren",
-				"File: Rename"
 			],
 			[
 				"remo",
@@ -726,10 +703,6 @@
 			[
 				"tex",
 				"Set Syntax: Plain Text"
-			],
-			[
-				"renma",
-				"File: Rename"
 			],
 			[
 				"j",
@@ -962,16 +935,12 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/poc/workspace/ng_scaffold",
-		"/Users/poc/workspace/ng_scaffold/bin",
-		"/Users/poc/workspace/ng_scaffold/lib",
-		"/Users/poc/workspace/ng_scaffold/lib/ng_scaffold",
-		"/Users/poc/workspace/ng_scaffold/lib/tpl"
-	],
 	"file_history":
 	[
+		"/Users/poc/workspace/ng_scaffold/lib/tpl/form.html.erb",
+		"/Users/poc/.pryrc",
+		"/Users/poc/workspace/ng_scaffold/lib/ng_scaffold/exec.rb",
+		"/Users/poc/workspace/ng_scaffold/lib/tpl/edit_controller.js.erb",
 		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/controllers/index.js",
 		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/tpl/app.html",
 		"/Users/poc/workspace/AlphaProject/alphaLoan/public/portal/js/admin.config.router.js",
@@ -1033,7 +1002,6 @@
 		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/js/directives/ui-jq.js",
 		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/form_select.html",
 		"/Users/poc/.irbrc",
-		"/Users/poc/.pryrc",
 		"/Users/poc/workspace/github_blog/source/_posts/pry-console-cheetsheet.md",
 		"/Users/poc/workspace/AlphaProject/alphaLoan/config/deploy.rb",
 		"/Users/poc/workspace/AlphaProject/alphaLoan/public/ngAdmin/admin_tpl/form_validation.html",
@@ -1096,14 +1064,11 @@
 		"/Users/poc/workspace/ezfly_free_to_japan/docs/work_schedules.txt",
 		"/Users/poc/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
 		"/Users/poc/workspace/dadasayserver/public/plugin/v1/style.min.css",
-		"/Users/poc/workspace/dadasayserver/app/assets/mint/scss/bootstrap.scss",
-		"/Users/poc/workspace/dadasayserver/bootstrap.css",
-		"/Users/poc/workspace/lazyair_projects/lazy-bird-website/spec/controllers/user/travel_organizer_controller_spec.rb",
-		"/Users/poc/workspace/dadasayserver/public/comments.html"
+		"/Users/poc/workspace/dadasayserver/app/assets/mint/scss/bootstrap.scss"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -1118,6 +1083,29 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"create_dest_folders",
+			"resource_id",
+			"loan_plan_id",
+			".loan_plan_id",
+			"loan_plan_id",
+			"loan_plans",
+			"LoanPlanService",
+			"CONTROLLER_TMPL",
+			"cookies",
+			"create_dest_controller_folder",
+			"VIEW_TMPL",
+			"TEM",
+			"edit",
+			"edit_controller",
+			"index_controller.js",
+			"index_controller",
+			"naming_process",
+			"create_dest_controller_folder",
+			"bank_id",
+			"module",
+			"LoanPlan",
+			"setup_name",
+			"options",
 			"src='js",
 			"data-",
 			"script",
@@ -1222,30 +1210,7 @@
 			"LoanPlanSearch",
 			"LoanPlan",
 			"LoanPlanModule",
-			"search",
-			"con",
-			"rootS",
-			"propsFilter",
-			"load_plan",
-			"name",
-			"id",
-			"option.age",
-			"person",
-			"multipleDemo.selectedPeopleWithGroupBy",
-			"group",
-			"ui.select",
-			"select",
-			"ui-select",
-			"person.",
-			"email",
-			"opt",
-			"update",
-			"repeatSelect",
-			"CareerService",
-			"multi",
-			"controllers/form.js",
-			"valid",
-			"editFields"
+			"search"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1268,132 +1233,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "lib/ng_scaffold/exec.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 864,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								680,
-								680
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 44,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/poc/.pryrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1976,
-								1976
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 54,
-								"count": 122,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 820.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "lib/tpl/edit_controller.js.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"WordCount":
-							{
-								"changes": 0,
-								"count": 16,
-								"modified": false,
-								"selection": false,
-								"status": -1,
-								"syntax": "plain text"
-							},
-							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 30.0
@@ -1411,11 +1250,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.554747161348,
 			1.0
 		],
 		"rows":
@@ -1438,7 +1284,6 @@
 		"height": 136.0
 	},
 	"pinned_build_system": "",
-	"project": "ng_scaffold.sublime-project",
 	"replace":
 	{
 		"height": 56.0
@@ -1450,6 +1295,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index_controller",
+				"lib/tpl/index_controller.js.erb"
+			],
+			[
+				"edicon",
+				"lib/tpl/edit_controller.js"
+			],
+			[
+				"htmle",
+				"lib/tpl/form.html.erb"
+			],
+			[
+				"service.js.erb",
+				"lib/tpl/service.js.erb"
+			],
+			[
+				"exec",
+				"lib/ng_scaffold/exec.rb"
+			],
 			[
 				"confla",
 				"portal/js/config.lazyload.js"
@@ -1941,26 +1806,6 @@
 			[
 				"modelo",
 				"alphaLoan/app/models/loan_plan.rb"
-			],
-			[
-				"modeloan",
-				"alphaLoan/app/models/loan_plan.rb"
-			],
-			[
-				"post/",
-				"_posts/angular-resource-RESTful.md"
-			],
-			[
-				"loancon",
-				"alphaLoan/app/controllers/api/v1/loan_plans_controller.rb"
-			],
-			[
-				"plaformhtml",
-				"alphaLoan/public/ngAdmin/admin_tpl/loan_plan/form.html"
-			],
-			[
-				"planhtml",
-				"alphaLoan/app/views/api/v1/loan_plans/edit.html.erb"
 			]
 		],
 		"width": 0.0
@@ -1987,14 +1832,13 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 213.0,
 	"status_bar_visible": true,
 	"template_settings":

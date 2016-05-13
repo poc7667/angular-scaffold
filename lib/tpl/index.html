@@ -1,36 +1,41 @@
-<div class="bg-light lter b-b wrapper-md">
-    <h1 class="m-n font-thin h3">plans</h1>
-</div>
-<div ui-view class="wrapper-md" ng-controller="loanPlanIndexCtrl">
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <table class="table table-bordered table-hover table-condensed">
-                <tr style="font-weight: bold">
-                    <td ng-repeat=" field in indexFields ">
-                        {{field}}
-                    </td>
-                    <td>Operation</td>
-                </tr>
-                <tr ng-repeat=" plan in loan_plans ">
-                    <td ng-repeat=" field in indexFields ">
-                        {{ plan[field] || 'empty'}}
-                    </td>
-                    <td nowrap="true">
-                        <a ui-sref="admin.banks.edit_loan_plans({bank_id: plan.bank_id, loan_plan_id: plan.id})">
-                            <button class="btn btn-info ">
-                        <i class="fa fa-edit" ></i>
-                            Edit</button>
-                        </a>
-                        <button class="btn btn-danger " ng-click="delete($index, plan.id)">
-                        <i class="fa fa-minus" ></i>
-                        Delete</button>
-                    </td>
-                </tr>
-            </table>
-            <div>
-                <button class="btn btn-sm btn-info" ui-sref="admin.banks.edit_loan_plans({bank_id: bank_id})" >
-                <i class="fa fa-plus" ></i>
-                New Plan</button>
+<div ng-controller="<%=@opt.class_name%>BaseCtrl">
+    <div class="bg-light lter b-b wrapper-md">
+        <h1 class="m-n font-thin h3">{{I18n.t(<%=@opt.class_name%>)}}</h1>
+    </div>
+    <div ui-view class="wrapper-md" ng-controller="<%=@opt.class_name%>IndexCtrl">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <table class="table table-bordered table-hover table-condensed">
+                    <tr style="font-weight: bold">
+                        <td ng-repeat=" field in <%=@opt.resource%>_fields ">
+                            {{field}}
+                        </td>
+                        <td>Operation</td>
+                    </tr>
+                    <tr ng-repeat=" <%=@opt.resource%> in <%=@opt.resources_name%> ">
+                        <td ng-repeat=" field in <%=@opt.resource%>_fields ">
+                            <span editable-text="<%=@opt.resource%>.{{field}}" e-name="{{field}}" e-form="rowform"  e-required>
+                                {{ <%=@opt.resource%>[field] || 'empty'}}
+                            </span>
+                        </td>
+                        <td nowrap="true">
+                            <form editable-form="" name="rowform" onbeforesave="inPlaceUpdate($data, <%=@opt.resource%>.id)" ng-show="rowform.$visible" class="form-buttons form-inline ng-pristine ng-valid ng-hide" shown="inserted == <%=@opt.resource%>" aria-hidden="true">
+                                <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-sm btn-info" aria-disabled="false">
+                                save
+                                </button>
+                                <button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-sm btn-default" aria-disabled="false">
+                                cancel
+                                </button>
+                            </form>
+                            <div class="buttons" ng-show="!rowform.$visible" aria-hidden="false">
+                                <button class="btn btn-sm btn-info" ng-click="rowform.$show()">edit</button>
+                                <button class="btn btn-sm btn-danger" ng-click="delete($index, <%=@opt.resource%>.id)" ng-controller="<%=@opt.class_name%>DeleteCtrl"><i class="fa fa-minus"></i> delete</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                </div>
             </div>
         </div>
     </div>
