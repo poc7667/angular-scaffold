@@ -20,6 +20,7 @@
         url: '/index',
         templateUrl: 'admin_tpl/<%=@opt.resource%>/index.html',
         resolve: load([
+        'ui.select',
         'xeditable',
         'js/controllers/<%=@opt.resource%>/index_controller.js',
         'js/controllers/<%=@opt.resource%>/update_controller.js',

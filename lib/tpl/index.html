@@ -7,15 +7,23 @@
             <div class="panel-body">
                 <table class="table table-bordered table-hover table-condensed">
                     <tr style="font-weight: bold">
-                        <td ng-repeat=" field in <%=@opt.resource%>_fields ">
+                        <td ng-repeat=" field in <%=@opt.resource%>_text_fields ">
+                            {{field}}
+                        </td>
+                        <td ng-repeat=" field in <%=@opt.resource%>_select_fields ">
                             {{field}}
                         </td>
                         <td>Operation</td>
                     </tr>
                     <tr ng-repeat=" <%=@opt.resource%> in <%=@opt.resources_name%> ">
-                        <td ng-repeat=" field in <%=@opt.resource%>_fields ">
+                        <td ng-repeat=" field in <%=@opt.resource%>_text_fields ">
                             <span editable-text="<%=@opt.resource%>.{{field}}" e-name="{{field}}" e-form="rowform"  e-required>
                                 {{ <%=@opt.resource%>[field] || 'empty'}}
+                            </span>
+                        </td>
+                        <td ng-repeat=" field in <%=@opt.resource%>_select_fields ">
+                            <span editable-select="<%=@opt.resource%>.{{field}}" e-name="{{field}}" e-form="rowform" e-ng-options="s.value as s.text for s in {{field}}_options"  data-e-style="min-width:75px;">
+                              {{ ( $eval(field+"_options") | filter:{value:  $eval("<%=@opt.resource%>."+field)})[0].text || $eval("<%=@opt.resource%>."+field) }}
                             </span>
                         </td>
                         <td nowrap="true">
