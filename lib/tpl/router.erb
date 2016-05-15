@@ -1,39 +1,40 @@
-============= admin_app.js module ==============
+============= <%=@cfg.router_root_namespace%>_app.js module ==============
 
 <%= @opt.module_name %>
 
 ============= INDEX TEMPLATE ==============
 
-<script src="js/services/<%=@opt.resource%>_service.js"></script>
+<script src="<%=@cfg.services_folder_path%>/<%=@opt.resource%>_service.js"></script>
 
 
 ============== ROUTER ===================
 
-    .state('admin.<%=@opt.resources_name%>', {
-        url: '/<%=@opt.resources_name%>',
-        template: '<div ui-view class="fade-in"></div>',
-        controller: '<%=@opt.class_name%>BaseCtrl',
-        resolve: load(['js/services/<%=@opt.resource%>_service.js', 
-        'js/controllers/<%=@opt.resource%>/base_controller.js'])
-    })
-    .state('admin.<%=@opt.resources_name%>.index', {
-        url: '/index',
-        templateUrl: 'admin_tpl/<%=@opt.resource%>/index.html',
-        resolve: load([
-        'ui.select',
-        'xeditable',
-        'js/controllers/<%=@opt.resource%>/index_controller.js',
-        'js/controllers/<%=@opt.resource%>/update_controller.js',
-        'js/controllers/<%=@opt.resource%>/delete_controller.js',
-        'js/controllers/<%=@opt.resource%>/create_controller.js',
-        ])
-    })
-    .state('admin.<%=@opt.resources_name%>.edit', {
-        url: '/edit/:<%=@opt.resource_id%>',
-        templateUrl: 'admin_tpl/<%=@opt.resources_name%>/form.html',
-        controller: '<%=@opt.class_name%>EditCtrl',
-        resolve: load([
-        'angularFileUpload',
-        'js/controllers/<%=@opt.resource%>/edit_controller.js'
-        ])
-    })
+.state('<%=@cfg.router_root_namespace%>.<%=@opt.resources_name%>', {
+    url: '/<%=@opt.resources_name%>',
+    template: '<div ui-view class="fade-in"></div>',
+    controller: '<%=@opt.class_name%>BaseCtrl',
+    resolve: load(['js/services/<%=@opt.resource%>_service.js',
+    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/base_controller.js'])
+})
+.state('<%=@cfg.router_root_namespace%>.<%=@opt.resources_name%>.index', {
+    url: '/index',
+    templateUrl: '<%=@cfg.tpl_folder_path%>/<%=@opt.resource%>/index.html',
+    resolve: load([
+    'ui.select',
+    'toaster',
+    'xeditable',
+    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/index_controller.js',
+    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/update_controller.js',
+    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/delete_controller.js',
+    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/create_controller.js',
+    ])
+})
+.state('<%=@cfg.router_root_namespace%>.<%=@opt.resources_name%>.edit', {
+    url: '/edit/:<%=@opt.resource_id%>',
+    templateUrl: '<%=@cfg.tpl_folder_path%>/<%=@opt.resources_name%>/form.html',
+    controller: '<%=@opt.class_name%>EditCtrl',
+    resolve: load([
+    'angularFileUpload',
+    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/edit_controller.js'
+    ])
+})

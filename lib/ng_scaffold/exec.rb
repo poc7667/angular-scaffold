@@ -6,10 +6,9 @@ require 'erb'
 require 'active_support/all'
 require 'ostruct'
 require 'fileutils'
-
+require 'yaml'
 
 TPL_DIR = File.expand_path('../../tpl', __FILE__)
-# controller_erb_str = ERB.new(controller_erb)
 
 SERVICE_TMPL = OpenStruct.new(
   "service.js": File.read([TPL_DIR, 'service.js'].join('/')),
@@ -36,29 +35,40 @@ module NgScaffold
     end
     class NgScaffold < ScaffoldBase
       def initialize(args)
+        load_cfg
         setup_naming(args)
-        @dest_dirs = {
-          controllers: [Dir.pwd,'js', 'controllers', @opt.param_name].join("/"),
-          services: [Dir.pwd,'js', 'services'].join("/"),
-          views: [Dir.pwd, 'admin_tpl', @opt.param_name].join("/"),
-        }
-        pp(@dest_dirs)
+        setup_dest_dir_paths
         create_dest_folders
         generate_templates
         show_js_routes_config
       end
 
+      def load_cfg
+        config_file_name = ".ng_scaffold.yml"
+        if File.exist?(config_file_name)
+          @cfg = OpenStruct.new(YAML.load_file(config_file_name))
+        else
+          FileUtils.cp([TPL_DIR, config_file_name].join('/'), Dir.pwd)
+          @cfg = OpenStruct.new(YAML.load_file(config_file_name))
+        end
+      end
+
       def setup_naming(args)
-        @opt = OpenStruct.new(
-          "working_path" => Dir.getwd,
-          "scaffold_name" => args.first,
-        )
+        @opt = OpenStruct.new("scaffold_name" => args.first)
         @opt.class_name = @opt.scaffold_name.camelize(:lower)
         @opt.resource = @opt.file_name_prefix = @opt.param_name = @opt.class_name.underscore
         @opt.resources_name = @opt.param_name.pluralize
         @opt.resource_id = @opt.param_name + "_id"
         @opt.module_name = @opt.class_name + "Module"
         @opt.service_name = @opt.class_name + "Service"
+      end
+
+      def setup_dest_dir_paths
+        @dest_dirs = {
+          controllers: [@cfg.controller_folder_path, @opt.param_name].join("/"),
+          services: [@cfg.services_folder_path].join("/"),
+          views: [@cfg.tpl_folder_path, @opt.param_name].join("/"),
+        }
       end
 
       def create_dest_folders
