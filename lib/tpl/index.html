@@ -13,7 +13,7 @@
                         <td ng-repeat=" field in <%=@opt.resource%>_select_fields ">
                             {{I18n.t(field)}}
                         </td>
-                        <td>Operation</td>
+                        <td>{{I18n.t("operation")}}</td>
                     </tr>
                     <tr ng-repeat=" <%=@opt.resource%> in <%=@opt.resources_name%> ">
                         <td ng-repeat=" field in <%=@opt.resource%>_text_fields ">
