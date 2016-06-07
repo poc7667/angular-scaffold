@@ -37,10 +37,34 @@ module NgScaffold
       def initialize(args)
         load_cfg
         setup_naming(args)
+        parse_args
         setup_dest_dir_paths
         create_dest_folders
         generate_templates
         show_js_routes_config
+      end
+
+      def parse_args
+        @options = {}
+        @options[:scaffold_as_service] = true
+
+        option_parser = OptionParser.new do |opts|
+          opts.banner = 'here is help messages of the command line tool.'
+          opts.on('-s A,B', '--services A,B', Array, 'List of arguments') do |value|
+            @options[:services] = value.collect{|v| v.camelize(:lower)+ "Service"}
+          end
+          opts.on('--skip-scaffold-as-service', 'Set options as switch') do
+            # 这个部分就是使用这个Option后执行的代码
+            @options[:scaffold_as_service] = false
+          end
+
+        end.parse!
+
+        if @options[:scaffold_as_service]
+          @options[:services] << @opt.service_name 
+        end
+        @options[:services].uniq!
+
       end
 
       def load_cfg
@@ -93,16 +117,20 @@ module NgScaffold
 
       end
 
+      def injectServicesStr
+        @options[:services].join(", ")
+      end
+
       def export_template_file(template_list, &block)
         template_list.to_h.each do | file_name, erb_content |
-          content = ERB.new(erb_content).result(binding)
+          content = ERB.new(erb_content, nil, '-').result(binding)
           file_path = block.call(file_name)
           File.open(file_path, 'w') { |file| file.write(content) }
         end
       end
 
       def show_js_routes_config
-        puts ERB.new(File.read([TPL_DIR, 'router.erb'].join('/'))).result(binding)
+        puts ERB.new(File.read([TPL_DIR, 'router.erb'].join('/')), nil, '-').result(binding)
       end
 
     end

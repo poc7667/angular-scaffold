@@ -1,24 +1,43 @@
-<div ng-controller="<%=@opt.class_name%>BaseCtrl">
+<!-- ng-controller="<%=@opt.class_name%>BaseCtrl" -->
+<div ng-controller="<%=@opt.class_name%>IndexCtrl">
     <div class="bg-light lter b-b wrapper-md">
         <h1 class="m-n font-thin h3"> {{I18n.t("<%=@opt.class_name%>")}} </h1>
     </div>
-    <div ui-view class="wrapper-md" ng-controller="<%=@opt.class_name%>IndexCtrl">
+    <div ui-view class="wrapper-md" >
         <div class="panel panel-default">
             <div class="panel-body">
                 <table class="table table-bordered table-hover table-condensed">
                     <tr style="font-weight: bold">
+                        <td ng-repeat=" field in <%=@opt.resource%>_pre_non_editable_fields ">
+                            {{I18n.t(field)}}
+                        </td>
                         <td ng-repeat=" field in <%=@opt.resource%>_text_fields ">
                             {{I18n.t(field)}}
                         </td>
+                        <td ng-repeat=" field in <%=@opt.resource%>_datetime_text_fields ">
+                            {{I18n.t(field)}}
+                        </td>
+
                         <td ng-repeat=" field in <%=@opt.resource%>_select_fields ">
+                            {{I18n.t(field)}}
+                        </td>
+                        <td ng-repeat=" field in <%=@opt.resource%>_post_non_editable_fields ">
                             {{I18n.t(field)}}
                         </td>
                         <td>{{I18n.t("operation")}}</td>
                     </tr>
                     <tr ng-repeat=" <%=@opt.resource%> in <%=@opt.resources_name%> ">
+                        <td ng-repeat=" field in <%=@opt.resource%>_pre_non_editable_fields ">
+                            {{ <%=@opt.resource%>[field] }}
+                        </td>
                         <td ng-repeat=" field in <%=@opt.resource%>_text_fields ">
                             <span editable-text="<%=@opt.resource%>.{{field}}" e-name="{{field}}" e-form="rowform"  e-required>
                                 {{ <%=@opt.resource%>[field] || 'empty'}}
+                            </span>
+                        </td>
+                        <td ng-repeat=" field in <%=@opt.resource%>_datetime_text_fields ">
+                            <span editable-text="<%=@opt.resource%>.{{field}}" e-name="{{field}}" e-form="rowform"  e-required>
+                                {{ <%=@opt.resource%>[field] | date:'yyyy-MM-dd HH:mm':'UTC'}}
                             </span>
                         </td>
                         <td ng-repeat=" field in <%=@opt.resource%>_select_fields ">
@@ -26,6 +45,10 @@
                               {{ ( $eval(field+"_options") | filter:{value:  $eval("<%=@opt.resource%>."+field)})[0].text || $eval("<%=@opt.resource%>."+field) }}
                             </span>
                         </td>
+                        <td ng-repeat=" field in <%=@opt.resource%>_post_non_editable_fields ">
+                            {{ <%=@opt.resource%>[field] }}
+                        </td>
+
                         <td nowrap="true">
                             <form editable-form="" name="rowform" onbeforesave="inPlaceUpdate($data, <%=@opt.resource%>.id)" ng-show="rowform.$visible" class="form-buttons form-inline ng-pristine ng-valid ng-hide" shown="inserted == <%=@opt.resource%>" aria-hidden="true">
                                 <button type="submit" ng-disabled="rowform.$waiting" class="btn btn-sm btn-info" aria-disabled="false">
