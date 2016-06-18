@@ -60,6 +60,7 @@ module NgScaffold
 
         end.parse!
 
+        @options[:services] ||= []
         if @options[:scaffold_as_service]
           @options[:services] << @opt.service_name 
         end
