@@ -13,8 +13,6 @@
     url: '/<%=@opt.resources_name%>',
     template: '<div ui-view class="fade-in"></div>',
     controller: '<%=@opt.class_name%>BaseCtrl',
-    resolve: load(['js/services/<%=@opt.resource%>_service.js',
-    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/base_controller.js'])
 })
 .state('<%=@cfg.router_root_namespace%>.<%=@opt.resources_name%>.index', {
     url: '/index',
@@ -22,11 +20,7 @@
     resolve: load([
     'ui.select',
     'toaster',
-    'xeditable',
-    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/index_controller.js',
-    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/update_controller.js',
-    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/delete_controller.js',
-    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/create_controller.js',
+    'xeditable'
     ])
 })
 .state('<%=@cfg.router_root_namespace%>.<%=@opt.resources_name%>.edit', {
@@ -34,7 +28,6 @@
     templateUrl: '<%=@cfg.tpl_folder_path%>/<%=@opt.resources_name%>/form.html',
     controller: '<%=@opt.class_name%>EditCtrl',
     resolve: load([
-    'angularFileUpload',
-    '<%=@cfg.controller_folder_path%>/<%=@opt.resource%>/edit_controller.js'
+    'angularFileUpload'
     ])
 })

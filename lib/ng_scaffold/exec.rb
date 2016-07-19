@@ -119,7 +119,7 @@ module NgScaffold
       end
 
       def injectServicesStr
-        @options[:services].join(", ")
+          @options[:services].join(", ")
       end
 
       def export_template_file(template_list, &block)
